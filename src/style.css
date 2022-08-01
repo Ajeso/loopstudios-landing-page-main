@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    box-sizing:border-box;
+
+    margin: 0;
+
+}
+ .container{
+    text-align: center;
+
+    width:1440px;
+} 
+
+.header{
+ background-image: url("/images/desktop/image-hero.jpg");
+
+  background-position: center center;
+
+  background-size: cover;
+
+  height: 80vh;
+
+  width: 100%;
+
+  margin: 0;
+
+  color: white;
+
+  padding-left: 10rem;
+
+ padding-right: 10rem;
+
+
+}
+
+ .navbar ul{
+    text-align: right;
+}
+
+ul li{
+
+    display: inline-block;
+
+    list-style-type:none;
+}
+
+
+ul li a{
+
+    text-decoration: none;
+
+    color: white;
+
+    margin-right: 10px;
+
+
+    font-family: 'Alata', sans-serif;
+
+    font-size: 15px;
+
+   
+
+}
+
+ h1{
+
+    font-family: 'Alata', sans-serif;
+
+    font-size: 60px;
+
+    padding-top: 10px;
+
+
+}
+
+.intro{
+border: 1px solid white;
+
+font-family: 'Alata', sans-serif;
+
+width: 40%;
+
+height: 35vh;
+
+font-size: 60px;
+
+text-align: center;
+
+text-transform: uppercase;
+
+font-weight: 300;
+
+margin-top: 5rem;
+
+
+}
+
+.content{
+padding-left: 10rem;
+
+ padding-right: 10rem;
+
+ display:flex;
+
+ flex-direction: row;
+
+ padding-top: 5rem;
+}
+
+.bio{
+
+    padding-top:5rem;
+
+}
+
+.mid{
+    padding-left: 10rem;
+
+    padding-right: 10rem;
+
+    padding-top: 3rem;
+
+    padding-bottom: 3rem;
+   
+
+}
+
+h3{
+    font-size: 30px;
+
+    font-family: 'Alata', sans-serif;
+
+}
+.btn{
+
+    /* float: right; */
+
+    width: 10%;
+
+    height: 5vh;
+
+    text-transform: uppercase;
+}
+
+.image-container{
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    row-gap: 30px;
+
+    column-gap: 20px;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-left: 10rem;
+
+    padding-right: 10rem;
+
+
+
+}
+
+.display-images{
+    flex:1 1 20.5%;
+
+    box-sizing: border-box;
+
+
+}
+
+.img-responsive{
+    width: 100%;
+
+    height: 57vh;
+
+}
+
+.title{
+    margin-top: -6rem;
+
+    text-transform: uppercase;
+
+    color: white;
+
+}
+
+footer{
+    background-color: black;
+
+    margin-top: 10rem;
+
+    padding-left: 10rem;
+
+    padding-right: 10rem;
+
+    color: white;
+
+    display: flex;
+
+}
+
+.Icons{
+
+    text-align: right;
+
+    padding: 20px;
+
+    margin-left: 17rem;
+    
+}
+.Icons p{
+
+    padding-top:30px;
+}
+
+
+svg{
+
+    background-color: white;
+}
+
+footer ul{
+    padding-top: 20px;
+}
