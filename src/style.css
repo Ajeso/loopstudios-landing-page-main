@@ -51,13 +51,14 @@ h1 {
 .intro {
     border: 1px solid white;
     font-family: 'Josefin Sans', sans-serif;
-    width: 40%;
+    width: 60%;
     height: 35vh;
     font-size: 60px;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-weight: 300;
     margin-top: 12rem;
+    padding: 20px;
 }
 
 .content {
