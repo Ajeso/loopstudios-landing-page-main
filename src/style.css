@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
 * {
     box-sizing: border-box;
 
     margin: 0;
 
+
 }
 
 .container {
-    width: 1440px;
+width:1440px;
 }
 
 .header {
@@ -20,45 +19,68 @@
     width: 100%;
     margin: 0;
     color: white;
-    padding-left: 10rem;
-    padding-right: 10rem;
+    position: relative;
 
 
 }
+.header::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.4;
+    width: 100%;
+    height: 80vh;
+    margin: 0
+}
 
-.navbar {
+.header-content{
+    position: absolute;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar{
     text-align: right;
-    margin-top: -3rem;
+    width: 100%;
 }
 
 .navbar a {
-
     text-decoration: none;
     color: white;
-    margin-right: 10px;
+    margin-right: 1rem;
     font-family: 'Alata', sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
 
-h1 {
+.logo {
 
     font-family: 'Alata', sans-serif;
-    font-size: 60px;
-    padding-top: 10px;
+    font-size: 35px;
+    font-weight: 400;
+
 }
 
 .intro {
-    border: 1px solid white;
+    border: 2px solid white;
     font-family: 'Josefin Sans', sans-serif;
-    width: 60%;
-    height: 35vh;
-    font-size: 60px;
+    width: 55%;
+    height: 34vh;
+    font-size: 45px;
+    font-weight: 100;
     text-align: left;
     text-transform: uppercase;
-    font-weight: 300;
-    margin-top: 12rem;
-    padding: 20px;
+    margin-top: 8rem;
+    padding: 30px;
 }
 
 .content {
@@ -71,34 +93,37 @@ h1 {
 
 .bio {
 
-    margin-top: 13rem;
+    margin-top: 11rem;
     background-color: white;
-    height: 43vh;
+    height: 44vh;
     margin-left: -9rem;
     width: 50%;
-    padding-left: 70px;
+    padding-left: 90px;
+    padding-top: 90px;
     text-align: left;
 }
 
 .bio h2 {
-
-    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 8px;
-    padding-top: 90px;
 }
 
 
 .bio p {
     font-family: 'Alata', sans-serif;
     padding-top: 15px;
-    font-weight: 400;
+    color: darkgrey;
+    line-height:1.5;
+
 }
 
 
 .mid {
-    padding-top: 3rem;
+    padding-top: 10rem;
     padding-bottom: 3rem;
     display: inline-block;
     width: 100%;
@@ -108,13 +133,13 @@ h1 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 50px;
     text-transform: uppercase;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .btn {
-    margin-top: -2rem;
+    margin-top: -1rem;
     width: 10%;
     height: 4vh;
     text-transform: uppercase;
@@ -155,14 +180,14 @@ h3 {
     margin-top: -6rem;
     text-transform: uppercase;
     color: white;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 
 }
 
 footer {
     background-color: black;
     margin-top: 10rem;
-    padding: 2rem;
     width: 100%;
     color: white;
 
@@ -172,6 +197,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
 
 }
 
