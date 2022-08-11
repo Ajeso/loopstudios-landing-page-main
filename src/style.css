@@ -1,272 +1,425 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-*{
-    box-sizing:border-box;
+* {
+    box-sizing: border-box;
 
     margin: 0;
 
 }
 
- .container{
+.container {
     width: 1440px;
-} 
+}
 
-.header{
- background-image: url("/images/desktop/image-hero.jpg");
-
-  background-position: center center;
-
-  background-size: cover;
-
-  height: 80vh;
-
-  width: 100%;
-
-  margin: 0;
-
-  color: white;
-
-  padding-left: 10rem;
-
- padding-right: 10rem;
+.header {
+    background-image: url("/images/desktop/image-hero.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    color: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
 
 
 }
 
- .navbar ul{
+.navbar {
     text-align: right;
-
-    margin-top: -2rem;
+    margin-top: -3rem;
 }
 
-ul li{
-
-    display: inline-block;
-
-    list-style-type:none;
-}
-
-
-ul li a{
+.navbar a {
 
     text-decoration: none;
-
     color: white;
-
     margin-right: 10px;
-
-
     font-family: 'Alata', sans-serif;
-
+    font-weight: 400;
     font-size: 15px;
-
-   
-
 }
 
- h1{
+h1 {
 
     font-family: 'Alata', sans-serif;
-
     font-size: 60px;
-
     padding-top: 10px;
-
-
 }
 
-.intro{
-border: 1px solid white;
-
-font-family: 'Alata', sans-serif;
-
-width: 40%;
-
-height: 35vh;
-
-font-size: 60px;
-
-text-align: center;
-
-text-transform: uppercase;
-
-font-weight: 300;
-
-margin-top: 5rem;
-
-
-}
-
-.content{
-padding-left: 10rem;
-
- padding-right: 10rem;
-
- display:flex;
-
- flex-direction: row;
-
- padding-top: 5rem;
-}
-
-.bio{
-
-    padding-top:10rem;
-
-    /* font-family: 'Alata', sans-serif; */
-}
-.bio h2{
+.intro {
+    border: 1px solid white;
     font-family: 'Josefin Sans', sans-serif;
+    width: 40%;
+    height: 35vh;
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 12rem;
+}
+
+.content {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+}
+
+.bio {
+
+    margin-top: 13rem;
+    background-color: white;
+    height: 43vh;
+    margin-left: -9rem;
+    width: 50%;
+    padding-left: 70px;
+    text-align: left;
+}
+
+.bio h2 {
 
     font-size: 36px;
-
-    font-weight: 100;
-
     text-transform: uppercase;
-
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    padding-top: 90px;
 }
 
-.bio p{
-    font-family: 'Josefin Sans', sans-serif;
 
-}
-
-.mid{
-    padding-top: 3rem;
-
-    padding-bottom: 3rem; 
-
-    display: inline-block;
-
-    width: 100%;
-
-    padding-left: 10rem;
-
-    padding-right: 10rem;
-
-    clear: both;
-   
-   
-}
-
-h3{
-    font-size: 30px;
-
-    text-transform: uppercase;
-
+.bio p {
     font-family: 'Alata', sans-serif;
-
+    padding-top: 15px;
+    font-weight: 400;
 }
-.btn{
-    margin-top: -2rem;
 
-    width: 10%;
 
-    height: 4vh;
+.mid {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: inline-block;
+    width: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    clear: both;
+}
 
+h3 {
+    font-size: 30px;
     text-transform: uppercase;
+    font-family: 'Alata', sans-serif;
 }
 
-.image-container{
+.btn {
+    margin-top: -2rem;
+    width: 10%;
+    height: 4vh;
+    text-transform: uppercase;
+    float: right;
+}
+
+
+.image-container {
 
     display: flex;
-
     flex-direction: row;
-
     flex-wrap: wrap;
-
     row-gap: 30px;
-
     column-gap: 20px;
-
     justify-content: center;
-
     align-items: center;
-
     padding-left: 10rem;
-
     padding-right: 10rem;
 
-
-
 }
 
-.display-images{
-    flex:1 1 20.5%;
-
+.display-images {
+    flex: 1 1 20.5%;
     box-sizing: border-box;
-
-
 }
 
-.img-responsive{
-    width: 100%;
 
+.img-responsive {
+    width: 100%;
     height: 57vh;
 
 }
+.mobile-image{
+    display: none;
+}
 
-.title{
+.title {
     margin-top: -6rem;
-
     text-transform: uppercase;
-
     color: white;
+    text-align: center;
 
 }
 
-footer{
+footer {
     background-color: black;
-
     margin-top: 10rem;
-
-    padding-left: 10rem;
-
-    padding-right: 10rem;
-
+    padding: 2rem;
+    width: 100%;
     color: white;
-
-    display: flex;
 
 }
 
-.Icons{
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container-1 .logo {
+
+    font-family: 'Alata', sans-serif;
+    font-size: 40px;
+    padding-bottom: 1rem;
+
+}
+
+.container-2 {
 
     text-align: right;
-
-    padding: 20px;
-
-    margin-left: 17rem;
-    
-}
-.Icons p{
-
-    padding-top:30px;
 }
 
+.container-2 p {
 
-svg{
+    padding-top: 30px;
+}
+
+svg {
 
     background-color: white;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
 
-footer ul{
-    padding-top: 20px;
+.footer-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+
+
 }
 
 
-    @media  screen and (min-width: 321px) and (max-width: 734px) {
-      .image-container{
-        /* font-size: 13px;
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
+
+
+
+
+@media only screen and (max-width: 400px) {
+    * {
+
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 375px;
+        overflow: hidden;
 
     }
-}
+
+    .header {
+        background-image: url("/images/mobile/image-hero.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+        height: 80vh;
+
+    }
+
+    .header-content {
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .logo {
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .navbar {
+        display: none;
+    }
+
    
+
+    .intro {
+        border: 1px solid white;
+        font-family: 'Alata', sans-serif;
+        width: 80%;
+        height: 25vh;
+        font-weight: 300;
+        margin-top: 10rem;
+        margin-left: 2rem;
+    }
+    .intro p{
+        font-size: 30px;
+        text-align: left;
+        text-transform: uppercase;
+        padding-left: 16px;
+    }
+      .content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        padding: 0; 
+    }
+
+    .interactive img{
+       max-width: 400px;
+       width: 100%;
+       padding: 0;
+    }
+
+    .bio {
+        background-color: white;
+        margin-left: 0; 
+        width: 100%;
+        margin:0;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    
+    }
+    
+    .bio h2 {
+    
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        padding-top: 24px;
+        
+    }
+    
+    
+    .bio p {
+        font-family: 'Alata', sans-serif;
+        font-weight: 400;
+    }
+    .mid{
+        display: block;
+        padding-left:2px;
+       padding-right: 2px;
+       padding-top: 0;
+
+    }
+
+    .mid h3{
+        font-family: 'Alata', sans-serif;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .image-container {
+        display: none;
+        
+    }
+    .mobile-image{
+       display: block;
+     
+    }
+
+    .img-mobile{
+        width: 100%;
+        height: 30vh;
+        padding-top: 2rem; 
+
+    }
+
+    .title {
+        margin-top: -6rem;
+        text-transform: uppercase;
+        color: white;
+        text-align: left;
+        padding-left: 1rem;
+    
+    }
+    
+
+    .btn{
+        font-size: 15px;
+        margin-top: 2rem;
+        width: 20%;
+        float: none;
+    
+    }
+    .input{
+          text-align: center;  
+    }
+
+
+    .footer{
+        margin-top: 2rem;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;  
+    }
+
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 1rem;
+
+    }
+    .footer-links a{
+        padding-top: 0.5rem;
+    }
+
+    .container-1 .logo {
+
+        font-family: 'Alata', sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .container-2{
+        text-align: center;
+    }
+
+    .container-2 p {
+
+        padding-top: 0.5rem;
+        font-size: 10px;
+
+    }
+
+    svg {
+
+        color: white;
+
+        width: 32px;
+
+        height: 24px;
+
+        margin: 0;
+
+        padding: 0;
+    }
+
+
+    
+}
+
 
 
 
